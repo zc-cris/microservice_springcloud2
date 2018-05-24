@@ -1,0 +1,13 @@
+<component name="libraryTable">
+  <library name="Maven: org.springframework.cloud:spring-cloud-netflix-hystrix-dashboard:2.0.0.BUILD-SNAPSHOT">
+    <CLASSES>
+      <root url="jar://$MAVEN_REPOSITORY$/org/springframework/cloud/spring-cloud-netflix-hystrix-dashboard/2.0.0.BUILD-SNAPSHOT/spring-cloud-netflix-hystrix-dashboard-2.0.0.BUILD-20180524.050319-2655.jar!/" />
+    </CLASSES>
+    <JAVADOC>
+      <root url="jar://$MAVEN_REPOSITORY$/org/springframework/cloud/spring-cloud-netflix-hystrix-dashboard/2.0.0.BUILD-SNAPSHOT/spring-cloud-netflix-hystrix-dashboard-2.0.0.BUILD-20180524.050319-2655-javadoc.jar!/" />
+    </JAVADOC>
+    <SOURCES>
+      <root url="jar://$MAVEN_REPOSITORY$/org/springframework/cloud/spring-cloud-netflix-hystrix-dashboard/2.0.0.BUILD-SNAPSHOT/spring-cloud-netflix-hystrix-dashboard-2.0.0.BUILD-20180524.050319-2655-sources.jar!/" />
+    </SOURCES>
+  </library>
+</component>

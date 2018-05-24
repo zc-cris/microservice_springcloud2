@@ -1,0 +1,13 @@
+eureka:
+  client:
+    register-with-eureka: false		# 试试不把自己注册到eureka server 中，是否可以拿到eureka server上的服务信息列表（答案是可以的）
+    serviceUrl:
+      defaultZone: http://localhost:8761/eureka/
+server:
+  port: 8765
+spring:
+  application:
+    name: service-feign
+feign:
+  hystrix:
+      enabled: true
