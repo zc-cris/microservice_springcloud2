@@ -1,0 +1,7 @@
+spring:
+  cloud:
+    config:
+      name: config-client # 需要从github上读取的资源名称，注意没有yml后缀名
+      profile: dev # 本次访问的配置环境
+      label: master
+      uri: http://localhost:8767  #客户端微服务启动后，先去8767端口寻找服务端，通过服务端获取github的repository 地址

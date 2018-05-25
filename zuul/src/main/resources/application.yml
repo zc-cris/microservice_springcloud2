@@ -1,0 +1,29 @@
+server:
+  port: 8766    # 端口设置
+
+spring:
+  application:
+    name: microservicecloud-zuul-gateway                # 注册到Eureka 以及对外暴露的微服务名字（重要）
+
+eureka:
+  client:
+    serviceUrl:
+      defaultZone: http://localhost:8761/eureka/    # 将我们的zuul服务注册到eureka server 的地址
+  instance:
+    prefer-ip-address: true                   #注册到服务中心使用ip进行注册（服务名称显示的ip详情）
+
+
+info:
+  app.name: cris-microservicecloud
+  company.name: www.cris.com
+  app.programmer: zc-cris
+  build.artifactId: $project.artifactId$
+  build.version: $project.version$
+
+# zuul代理指定服务模块，将其对外暴露的服务名隐藏换个马甲
+zuul:
+  prefix: /cris   # 设置公共的访问前缀
+  ignored-services: "*"
+  routes:
+    user.serviceId: service-provider
+    user.path: /user/**

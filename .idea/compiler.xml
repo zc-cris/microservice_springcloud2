@@ -7,6 +7,8 @@
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
         <module name="common" />
+        <module name="config-client" />
+        <module name="config-server" />
         <module name="consumer" />
         <module name="dashboard" />
         <module name="eureka" />
@@ -16,6 +18,8 @@
     </annotationProcessing>
     <bytecodeTargetLevel>
       <module name="common" target="1.8" />
+      <module name="config-client" target="1.8" />
+      <module name="config-server" target="1.8" />
       <module name="consumer" target="1.8" />
       <module name="dashboard" target="1.8" />
       <module name="eureka" target="1.8" />
